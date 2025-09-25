@@ -1,0 +1,21 @@
+.app{display:flex;flex-direction:column;min-height:100vh;background:#fafafa;color:#111}
+.content{flex:1 1 auto;max-width:1100px;margin:0 auto;padding:24px}
+.container{max-width:1100px;margin:0 auto}
+h1,h2,h3{margin:0 0 12px}
+a{color:#0b65c2;text-decoration:none} a:hover{text-decoration:underline}
+.btn{display:inline-block;padding:10px 14px;border-radius:8px;background:#0b65c2;color:#fff;font-weight:600;border:none;cursor:pointer}
+.btn:disabled{opacity:.6;cursor:not-allowed}
+.grid{display:grid;grid-template-columns:1fr;gap:16px}
+@media(min-width:768px){.grid{grid-template-columns:repeat(3,1fr)}}
+.card{background:#fff;border:1px solid #e5e7eb;border-radius:12px;padding:12px;box-shadow:0 1px 2px rgba(0,0,0,.04)}
+.card img{width:100%;height:160px;object-fit:cover;border-radius:8px}
+.badges{display:flex;gap:6px;flex-wrap:wrap;margin-top:8px}
+.badge{font-size:12px;background:#eef2f7;border:1px solid #dde3ea;padding:2px 8px;border-radius:999px}
+.header{background:#0b1a38;color:#fff}
+.header .inner{display:flex;align-items:center;justify-content:space-between;padding:16px 24px;max-width:1100px;margin:0 auto}
+.brand{font-weight:800;font-size:20px}
+.footer{background:#0b1a38;color:#fff}
+.footer .inner{padding:8px 24px;text-align:center;max-width:1100px;margin:0 auto;font-size:12px}
+.input{width:100%;padding:10px 12px;border:1px solid #d1d5db;border-radius:8px;font-size:14px;background:#fff}
+.meta{color:#667085;font-size:12px}
+.comment{border:1px solid #e5e7eb;border-radius:8px;padding:8px 12px;margin:8px 0;background:#fff}
